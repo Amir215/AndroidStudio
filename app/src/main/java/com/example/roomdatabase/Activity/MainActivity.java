@@ -1,8 +1,12 @@
-package com.example.roomdatabase;
+package com.example.roomdatabase.Activity;
 
 import android.content.Intent;
 import android.os.Bundle;
 
+import com.example.roomdatabase.Adapter.NoteListAdapter;
+import com.example.roomdatabase.ViewModel.Note;
+import com.example.roomdatabase.R;
+import com.example.roomdatabase.ViewModel.NoteViewModel;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 
 import androidx.annotation.Nullable;
@@ -14,7 +18,6 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import android.view.View;
-import android.widget.EditText;
 import android.widget.Toast;
 
 import java.util.List;

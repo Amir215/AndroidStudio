@@ -1,10 +1,12 @@
-package com.example.roomdatabase;
+package com.example.roomdatabase.Database;
 
 import android.content.Context;
 
 import androidx.room.Database;
 import androidx.room.Room;
 import androidx.room.RoomDatabase;
+
+import com.example.roomdatabase.ViewModel.Note;
 
 @Database(entities = Note.class, version = 1)
 public abstract class NoteRoomDatabase extends RoomDatabase {
@@ -13,7 +15,7 @@ public abstract class NoteRoomDatabase extends RoomDatabase {
 
     private static volatile NoteRoomDatabase noteRoomDatabase;
 
-    static NoteRoomDatabase getDatabase(final Context context) {
+    public static NoteRoomDatabase getDatabase(final Context context) {
         if (noteRoomDatabase == null) {
             synchronized (NoteRoomDatabase.class) {
                 if (noteRoomDatabase == null) {

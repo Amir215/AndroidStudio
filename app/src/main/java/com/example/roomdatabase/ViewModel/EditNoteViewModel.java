@@ -1,4 +1,4 @@
-package com.example.roomdatabase;
+package com.example.roomdatabase.ViewModel;
 
 import android.app.Application;
 import android.util.Log;
@@ -6,6 +6,9 @@ import android.util.Log;
 import androidx.annotation.NonNull;
 import androidx.lifecycle.AndroidViewModel;
 import androidx.lifecycle.LiveData;
+
+import com.example.roomdatabase.Database.NoteDao;
+import com.example.roomdatabase.Database.NoteRoomDatabase;
 
 public class EditNoteViewModel extends AndroidViewModel {
 

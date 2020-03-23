@@ -1,13 +1,15 @@
-package com.example.roomdatabase;
+package com.example.roomdatabase.ViewModel;
 
 import android.app.Application;
 import android.os.AsyncTask;
 import android.util.Log;
-import android.widget.ListView;
 
 import androidx.annotation.NonNull;
 import androidx.lifecycle.AndroidViewModel;
 import androidx.lifecycle.LiveData;
+
+import com.example.roomdatabase.Database.NoteDao;
+import com.example.roomdatabase.Database.NoteRoomDatabase;
 
 import java.util.List;
 

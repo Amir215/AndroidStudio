@@ -1,4 +1,4 @@
-package com.example.roomdatabase;
+package com.example.roomdatabase.Adapter;
 
 import android.app.Activity;
 import android.content.Context;
@@ -12,9 +12,13 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.example.roomdatabase.Activity.EditNoteActivity;
+import com.example.roomdatabase.ViewModel.Note;
+import com.example.roomdatabase.R;
+
 import java.util.List;
 
-import static com.example.roomdatabase.MainActivity.UPDATE_NOTE_ACTIVITY_REQUEST_CODE;
+import static com.example.roomdatabase.Activity.MainActivity.UPDATE_NOTE_ACTIVITY_REQUEST_CODE;
 
 public class NoteListAdapter extends RecyclerView.Adapter<NoteListAdapter.NoteViewHolder> {
 

@@ -1,4 +1,4 @@
-package com.example.roomdatabase;
+package com.example.roomdatabase.Activity;
 
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
@@ -9,6 +9,8 @@ import android.text.TextUtils;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+
+import com.example.roomdatabase.R;
 
 public class NewNoteActivity extends AppCompatActivity {
 

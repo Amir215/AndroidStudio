@@ -1,4 +1,4 @@
-package com.example.roomdatabase;
+package com.example.roomdatabase.Activity;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.lifecycle.LiveData;
@@ -10,6 +10,10 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+
+import com.example.roomdatabase.ViewModel.Note;
+import com.example.roomdatabase.R;
+import com.example.roomdatabase.ViewModel.EditNoteViewModel;
 
 public class EditNoteActivity extends AppCompatActivity {
 
